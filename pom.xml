@@ -57,9 +57,11 @@
     <artifactId>testng</artifactId>
     <version>6.14.3</version>
     <scope>test</scope>
+<!-- https://mvnrepository.com/artifact/com.fortify.sca.plugins.maven/sca-maven-plugin -->
+<dependency>
+    <groupId>com.fortify.sca.plugins.maven</groupId>
+    <artifactId>sca-maven-plugin</artifactId>
+    <version>18.10</version>
 </dependency>
 
-<!--  Dependencies ended Now-->
-     
-  </dependencies>
 </project>
